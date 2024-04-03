@@ -1,20 +1,9 @@
-#include <Arduino.h>
+#include "control.h"
 
 // C++ program to implement
 // constructor 
 // inheritance
-#include<iostream>
-using namespace std;
-class A1
-{
-  public:
-  A1(int x, int y, int z)
-  {
-    cout << "soy el Constructor of the base class A1 numeros pasados: " << x <<" "<< y <<" " << z <<" \n";
-  }
- 
-};
- 
+
  
 class S: public A1
 {
