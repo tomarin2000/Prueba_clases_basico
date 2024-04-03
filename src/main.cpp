@@ -4,7 +4,7 @@
 // constructor 
 // inheritance
 
- 
+/*  
 class S: public A1
 {
   public:
@@ -13,7 +13,7 @@ class S: public A1
     cout << "soy el Constructor of the derived class S \n";
   }
 };
- 
+ */ 
 void setup() {
   Serial.begin(115200);
 
