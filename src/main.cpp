@@ -1,3 +1,5 @@
+#define __MAIN__
+
 #include "control.h"
 
 // C++ program to implement
@@ -7,8 +9,14 @@
 void setup() {
   Serial.begin(115200);
 
-  S obj(1,2,3);
+  obj = new S(1,2,3);
 }
 
-void loop() {}
+void loop() {
+
+  obj->fS();
+  obj->fA1();
+
+  delay(5000);
+}
   

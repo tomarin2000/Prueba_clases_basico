@@ -5,6 +5,7 @@
     class A1 {
     public:
         A1(int x, int y, int z);  // declaracion del constructor de clase A1
+        void fA1(void);
     
     };
 

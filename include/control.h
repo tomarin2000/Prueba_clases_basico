@@ -11,4 +11,8 @@
   #include<iostream>
   using namespace std;
 
+  #ifdef __MAIN__
+      S *obj;
+  #endif
+
 #endif
