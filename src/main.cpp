@@ -14,7 +14,7 @@ void setup() {
   obj.fS();
   //obj.fA1();
 
-  funcion_recibe_objeto(&obj);
+  funcion_recibe_objeto(obj);
 
   Serial.printf("En MAIN varS vale --> %d", obj.varS);
 }
@@ -24,9 +24,9 @@ void loop() {
 }
 
 
-void funcion_recibe_objeto(S* objeto_recibido) {
-    objeto_recibido->varS = 1000;   // puede ser local o heredado (fA1 es funcion heredada de clase A1)
-    Serial.printf("soy la funcion_recibe_objeto varS vale --> %d \n", objeto_recibido->varS);
+void funcion_recibe_objeto(S& objeto_recibido) {
+    objeto_recibido.varS = 1000;   // puede ser local o heredado (fA1 es funcion heredada de clase A1)
+    Serial.printf("soy la funcion_recibe_objeto varS vale --> %d \n", objeto_recibido.varS);
 
 }
 

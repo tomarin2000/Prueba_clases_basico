@@ -11,6 +11,6 @@
   #include<iostream>
   using namespace std;
 
-  void funcion_recibe_objeto(S*);
+  void funcion_recibe_objeto(S&);
 
 #endif
