@@ -11,8 +11,6 @@
   #include<iostream>
   using namespace std;
 
-  #ifdef __MAIN__
-      S *obj;
-  #endif
+  void funcion_recibe_objeto(S*);
 
 #endif

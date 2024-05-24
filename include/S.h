@@ -8,18 +8,8 @@
     public:
         S(int x, int y, int z);  // declaracion del constructor de clase S
         void fS(void);
+        int varS;
     };
-
-    /*  
-        class S: public A1
-        {
-        public:
-        S(int x, int y, int z): A1(x, y, z)
-        {
-            cout << "soy el Constructor of the derived class S \n";
-        }
-        };
-    */ 
 
 
 #endif
